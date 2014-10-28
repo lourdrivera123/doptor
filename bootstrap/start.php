@@ -26,7 +26,8 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('Paras-PC', 'SUB0DH-PC', 'Bezay', 'monk_'),
+	'local' => ['Paras-PC', 'SUB0DH-PC', 'Bezay', 'monk_'], 
+	'zem'	=> ['universalagency'],
 
 ));
 
